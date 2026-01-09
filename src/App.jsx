@@ -4,27 +4,6 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-    
-   /*  const [time, setTime] = useState(0)
-    const x = useRef(null)
-
-    function startTimer() {
-        x.current = setInterval(() => {
-            setTime(prev => prev + 1)
-        }, 1000)
-    }
-
-    function stopTimer() {
-        clearInterval(x.current)
-        x.current = null
-    }
-
-    function resetTimer() {
-        stopTimer()
-        setTime(0)
-    } */
-
-  
     const [time, setTime] = useState(0)
 
     const x = useRef(null)
